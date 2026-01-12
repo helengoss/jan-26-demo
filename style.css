@@ -1,6 +1,6 @@
-/* Basic styling */
+/* styling lesson */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; background-color: lightblue;
 }
 
 header {
@@ -9,22 +9,41 @@ header {
     text-align: center;
 }
 
+/* element selector */
+p {
+  color: darkblue;
+  text-align: left;
+}
+
+/* Id Selector */
+
+#para1 {
+  text-align: center;
+  color: darkmagenta;
+}
+
+/* Class seletor */
+
+.center {
+  text-align: center;
+  color: darkslategrey;
+}
+.left {
+  text-align: left;
+  color: darkslategrey;
+}
+
+/* footer */
 footer {
     background-color: lightgray;
     padding: 10px;
     text-align: center;
 }
 
-/* Issue: This text is currently hidden */
-.hidden-text {
-    display: inline;
-    /* Fix this */
-}
 
-/* Items are currently stacked vertically */
+/* Items are currently stacked vertically but can be side by side */
 .item {
     display: inline;
-    /* Change this to allow them to be side by side */
     padding: 10px;
     background-color: lightgreen;
     margin: 5px;
