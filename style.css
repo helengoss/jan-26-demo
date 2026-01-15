@@ -1,45 +1,112 @@
 /* styling lesson */
-body {
-    font-family: Arial, sans-serif; background-color: lightblue;
-}
 
-header {
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
-}
-
-/* element selector */
-p {
-  color: darkblue;
-  text-align: left;
-}
-
-/* Id Selector */
-
-#para1 {
-  text-align: center;
-  color: darkmagenta;
-}
-
-/* Class seletor */
-
-.center {
+/* Universal Selector */
+* {
   text-align: center;
   color: darkslategrey;
 }
+
+/* element selectors */
+
+/* header */
+header {
+  padding: 0px;
+    text-align: center;
+}
+
+/* footer */
+footer {
+    padding: 0px;
+    text-align: center;
+}
+
+/* body */
+body {
+    font-family: Arial, sans-serif; background-color: lightblue;
+} 
+
+/* text */
+
+h1 {
+  color: white;
+  text-align: centre;
+}
+
+h2 {
+  color: darkgreen;
+  text-align: left;
+  font-size: 15px;
+}
+
+h3 {
+  color: lightseagreen;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  color: darkgreen;
+  text-align: left;
+}
+
+/* images */
+
+img {
+  border-radius: 12px;
+  border: 3px solid darkslategrey;
+}
+
+
+/* Class seletor */
+
+.banner1 {
+  border-radius: 12px;
+    background-color: darkslategray;
+    width: 800px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid lightseagreen;
+}
+
+.banner2 {
+  border-radius: 12px;
+    background-color: darkslategray;
+    width: 800px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid whitesmoke;
+}
+
+.block {
+    border-radius: 12px;
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    border: 3px solid black;
+}
+
 .left {
   text-align: left;
   color: darkslategrey;
 }
 
-/* footer */
-footer {
-    background-color: lightgray;
-    padding: 10px;
-    text-align: center;
+/* Id Selector */
+
+#title1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: lightseagreen;
 }
 
+
+
+/* other stuff */
 
 /* Items are currently stacked vertically but can be side by side */
 .item {
